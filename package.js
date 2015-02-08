@@ -1,7 +1,7 @@
 Package.describe({
     name: 'risul:winston-papertrail',
     summary: 'Latest Winston Papertrail transport for Meteor',
-    version: '0.0.2',
+    version: '0.0.5',
     git: 'https://github.com/risul/meteor-winston-papertrail'
 });
 

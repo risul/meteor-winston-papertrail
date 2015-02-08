@@ -13,7 +13,7 @@ Add log settings to your settings.json or METEOR_SETTINGS env variable containin
 
 ```json
 {
-    "log": {
+    "logger": {
             "host": "logs.papertrailapp.com",
             "port": "*****",
             "handleExceptions": true/false,
