@@ -1,7 +1,7 @@
 Package.describe({
     name: 'risul:winston-papertrail',
     summary: 'Latest Winston Papertrail transport for Meteor',
-    version: '0.0.5',
+    version: '1.0.1_1',
     git: 'https://github.com/risul/meteor-winston-papertrail'
 });
 
@@ -11,7 +11,7 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-    api.versionsFrom('METEOR@0.9.2.2');
+    api.versionsFrom('METEOR@1.0');
     api.export('log');
     api.addFiles('lib/winston-papertrail.js', 'server');
 });
